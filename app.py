@@ -12,7 +12,7 @@ from langchain_community.document_loaders import TextLoader
 app = Flask(__name__)
 
 # Set your Google GenAI API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCJnR3hnj2m7XCMr_9OV5hg0PlwZ12ZTnc"
+os.environ["GOOGLE_API_KEY"] = "your_api_key"
 
 # Load and split text
 loader = TextLoader("data/project_text_file.txt")
